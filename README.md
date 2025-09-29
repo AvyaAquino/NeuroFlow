@@ -1,50 +1,99 @@
-# Welcome to your Expo app 👋
+# 🧠 NeuroFlow
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O **NeuroFlow** é um aplicativo de gerenciamento de tarefas moderno e intuitivo, projetado para ajudar os usuários a organizar suas atividades, aumentar a produtividade e manter o foco em seus objetivos.  
 
-## Get started
+Construído com **React Native** e **Expo**, o aplicativo oferece uma experiência fluida e sincronização em tempo real através do **Firebase**.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Tecnologias Utilizadas
+- React Native & Expo (SDK)  
+- TypeScript 
+- Firebase 
+---
 
-2. Start the app
+## 🔧 Como Rodar o Projeto Localmente
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Clone o repositório:
 
 ```bash
-npm run reset-project
+git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Navegue até a pasta do projeto:
 
-## Learn more
+```bash
+cd neuroflow
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Instale as dependências:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+Inicie o servidor de desenvolvimento:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🗺️ Backlog & Sprints do Projeto
+
+O desenvolvimento do **NeuroFlow** está organizado em **sprints**, garantindo entrega de valor contínuo.
+
+---
+
+### ✅ Sprint 1: MVP & Fundação (Concluído)
+Base sólida do app: autenticação e gerenciamento básico de tarefas.
+
+| Prioridade | User Story | Épico |
+|------------|------------|-------|
+| Alta | Como usuário, quero me cadastrar com e-mail e senha. | 🔑 Autenticação |
+| Alta | Como usuário, quero fazer login com e-mail e senha. | 🔑 Autenticação |
+| Alta | Como usuário autenticado, quero visualizar um painel principal de tarefas. | 🔑 Autenticação |
+| Alta | Como usuário, quero criar tarefas com título, descrição, categoria e prioridade. | 📝 CRUD de Tarefas |
+| Média | Como usuário, quero editar tarefas existentes. | 📝 CRUD de Tarefas |
+| Média | Como usuário, quero excluir tarefas. | 📝 CRUD de Tarefas |
+| Alta | Como usuário, quero que minhas tarefas fiquem salvas em nuvem. | ☁️ Sincronização |
+
+---
+
+### ⏳ Sprint 2: Funcionalidades Essenciais (A Fazer)
+Recursos de visualização, organização e notificações para melhorar a produtividade.
+
+| Prioridade | User Story | Épico |
+|------------|------------|-------|
+| Alta | Como usuário, quero visualizar minhas tarefas em formato de calendário. | 📊 Visualizações |
+| Alta | Como usuário, quero receber notificações sobre prazos próximos. | 🔔 Notificações |
+| Alta | Como usuário, quero fazer login com minha conta Google para acesso rápido. | 🔑 Autenticação |
+| Média | Como usuário, quero aplicar filtros (prioridade, prazo, categoria, status). | 📊 Visualizações |
+| Média | Como usuário, quero buscar tarefas por palavra-chave ou data. | 📊 Visualizações |
+| Média | Como usuário, quero fixar tarefas prioritárias no topo da lista. | 🗂️ Organização |
+| Baixa | Como usuário, quero configurar lembretes para tarefas específicas. | 🔔 Notificações |
+| Baixa | Como usuário, quero receber alertas sobre tarefas atrasadas. | 🔔 Notificações |
+
+---
+
+### ⏳ Sprint 3: Recursos Avançados e Polimento (A Fazer)
+Funcionalidades avançadas, colaboração e integrações externas.
+
+| Prioridade | User Story | Épico |
+|------------|------------|-------|
+| Alta | Como usuário, quero que as alterações offline sincronizem automaticamente. | ✨ Experiência |
+| Alta | Como usuário, quero compartilhar listas e tarefas com outras pessoas. | 🚀 Avançado |
+| Média | Como usuário, quero anexar arquivos, fotos e links às tarefas. | 🚀 Avançado |
+| Média | Como usuário, quero criar listas personalizadas (trabalho, estudos, etc.). | 🗂️ Organização |
+| Média | Como usuário, quero visualizar relatórios de produtividade. | 📈 Produtividade |
+| Média | Como usuário, quero sincronizar minhas tarefas com Google Calendar e Outlook. | ☁️ Sincronização |
+| Baixa | Como usuário, quero personalizar o tema do aplicativo (claro, colorido). | ✨ Experiência |
+| Baixa | Como usuário, quero ativar um modo de foco/Pomodoro. | 📈 Produtividade |
+| Baixa | Como usuário, quero adicionar etiquetas e cores às tarefas. | 🗂️ Organização |
+| Baixa | Como usuário, quero exportar listas e relatórios em PDF ou planilha. | 📈 Produtividade |
+| Baixa | Como usuário, quero acessar uma seção com dicas de produtividade. | ✨ Experiência |
+| Baixa | Como usuário, quero criar e consultar tarefas por comandos de voz. | ☁️ Sincronização |
+| Baixa | Como usuário, quero receber alertas inteligentes que reorganizem minha agenda. | ✨ Experiência |
+
+---
