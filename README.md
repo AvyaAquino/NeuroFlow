@@ -71,9 +71,11 @@ Recursos de visualização, organização e notificações para melhorar a produ
 | Alta | Como usuário, quero fazer login com minha conta Google para acesso rápido. | 🔑 Autenticação |
 | Média | Como usuário, quero aplicar filtros (prioridade, prazo, categoria, status). | 📊 Visualizações |
 | Média | Como usuário, quero buscar tarefas por palavra-chave ou data. | 📊 Visualizações |
+| Média | Como usuário, quero criar listas personalizadas (trabalho, estudos, etc.). | 🗂️ Organização |
 | Média | Como usuário, quero fixar tarefas prioritárias no topo da lista. | 🗂️ Organização |
 | Baixa | Como usuário, quero configurar lembretes para tarefas específicas. | 🔔 Notificações |
 | Baixa | Como usuário, quero receber alertas sobre tarefas atrasadas. | 🔔 Notificações |
+| Baixa | Como usuário, quero adicionar etiquetas e cores às tarefas. | 🗂️ Organização |
 
 ---
 
@@ -85,12 +87,10 @@ Funcionalidades avançadas, colaboração e integrações externas.
 | Alta | Como usuário, quero que as alterações offline sincronizem automaticamente. | ✨ Experiência |
 | Alta | Como usuário, quero compartilhar listas e tarefas com outras pessoas. | 🚀 Avançado |
 | Média | Como usuário, quero anexar arquivos, fotos e links às tarefas. | 🚀 Avançado |
-| Média | Como usuário, quero criar listas personalizadas (trabalho, estudos, etc.). | 🗂️ Organização |
 | Média | Como usuário, quero visualizar relatórios de produtividade. | 📈 Produtividade |
 | Média | Como usuário, quero sincronizar minhas tarefas com Google Calendar e Outlook. | ☁️ Sincronização |
 | Baixa | Como usuário, quero personalizar o tema do aplicativo (claro, colorido). | ✨ Experiência |
 | Baixa | Como usuário, quero ativar um modo de foco/Pomodoro. | 📈 Produtividade |
-| Baixa | Como usuário, quero adicionar etiquetas e cores às tarefas. | 🗂️ Organização |
 | Baixa | Como usuário, quero exportar listas e relatórios em PDF ou planilha. | 📈 Produtividade |
 | Baixa | Como usuário, quero acessar uma seção com dicas de produtividade. | ✨ Experiência |
 | Baixa | Como usuário, quero criar e consultar tarefas por comandos de voz. | ☁️ Sincronização |
